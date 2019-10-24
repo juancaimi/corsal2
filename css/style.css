@@ -6,12 +6,15 @@ body {
 header {
     background-color:#0f1618;
     padding-bottom: 7px;
-    }
+
+     }
 
 .flex-header {
-    
     display: flex;
     flex-direction: row;
+    width: 1000px;
+    margin: 0 auto;
+
 }    
 
 .header-comment {
@@ -33,22 +36,33 @@ header {
 nav {
     background-color:#dc191a;
     padding-bottom: 20px;
-    height: 25px;
-    
-}
-
-.home {
-    height: 20px;
+    height: 25px;        
 }
 
  .flex-nav {
     display: flex;
-    
+    font-family: sans-serif;
+    align-items: baseline;
+    padding-left: 250px;    
 }
 
+.flex-nav a {
+    text-decoration: none;
+    color: #fff5e8;
+    margin: 10px 13px;
+}
 
+.flex-nav a:hover {
+    color:black;
+}
 
+.home {
+    max-width: 20px;
+}
 
+.home img {
+    width: 100%;
+}
 
 .popular_topics {
     background-color:#ffffff;
