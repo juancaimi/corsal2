@@ -12,7 +12,7 @@ header {
 .flex-header {
     display: flex;
     flex-direction: row;
-    width: 1000px;
+    width: 90%;
     margin: 0 auto;
 
 }    
@@ -35,18 +35,20 @@ header {
 
 nav {
     background-color:#dc191a;
-    padding-bottom: 20px;
-    height: 25px;        
+    padding-bottom: 2px;
 }
 
  .flex-nav {
     display: flex;
     font-family: sans-serif;
     align-items: baseline;
-    padding-left: 250px;    
+    padding-left: 250px;   
+    width: 90%;
+    margin: 0 auto; 
 }
 
 .flex-nav a {
+    font-weight: bold;
     text-decoration: none;
     color: #fff5e8;
     margin: 10px 13px;
@@ -64,6 +66,34 @@ nav {
     width: 100%;
 }
 
-.popular_topics {
+.popular-topics {
     background-color:#ffffff;
+    max-width: 100%;
+    margin: 50px 200px 0px 200px;
+    padding: 10px 0px 10px 6px;
     }
+
+    .popular {
+    font-family: sans-serif;
+    color: #dd2324 !important;
+    }
+
+.popular-topics a{
+    font-family: sans-serif;
+    color:#1c2224;
+    text-decoration: none;
+    margin: 10px 10px;
+}
+
+.support {
+    font-size: 90%;
+    font-family: sans-serif;
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+.support a {
+    text-decoration: underline;
+    color: #1c2224;
+    margin-left: 3px;
+}
