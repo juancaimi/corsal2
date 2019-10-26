@@ -97,3 +97,34 @@ nav {
     color: #1c2224;
     margin-left: 3px;
 }
+.main-img {
+    position: relative;
+}
+
+.main-container {
+    margin-left: 200px;
+}
+.main-container a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+.main-container img {
+    height: 400px;
+    width: 53%;
+}
+
+.red-image-link {
+    background-color: #dc191a;
+    position: absolute;
+    top: 0px;
+    padding: 8px 7px;
+}
+
+.black-image-link {
+    background-color: #0f1618;
+    position: absolute;
+    bottom: 0px;
+    
+}
+
