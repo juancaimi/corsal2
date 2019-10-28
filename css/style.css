@@ -109,10 +109,7 @@ nav {
     color: white;
     font-family: sans-serif;
 }
-.main-container img {
-    height: 400px;
-    width: 53%;
-}
+
 
 .red-image-link {
     background-color: #dc191a;
@@ -124,7 +121,10 @@ nav {
 .black-image-link {
     background-color: #0f1618;
     position: absolute;
-    bottom: 0px;
+    bottom: 4px;
+    margin-bottom: 0px;
     
 }
+
+
 
