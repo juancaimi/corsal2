@@ -114,6 +114,8 @@ img {
 
 .second-img {
     position: relative;
+    width: 320px;
+    height: 174px;
 }
 
 .main-container {
@@ -128,22 +130,19 @@ img {
 
 .sub-container {
     display: flex;
-    width: 320px;
-    height: 174px;
-}
-.sub-container2 {
-    display: flex;
     flex-flow: column;
-    width: 320px;
-    height: 174px;
+}
+
+.sub-container .second-img:first-child {
+    margin: 0 5px 5px 0;
+}
+
+.sub-container img {
+    width: 100%;
 }
 
 .alpha-container {
     display: flex;
-}
-
-.alpha-container img {
-    margin: 0 10px 10px 0;
 }
 
 
