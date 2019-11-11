@@ -121,6 +121,7 @@ img {
 .main-container {
     width: 970px;
     margin: 0 auto;
+    display: flex;
 }
 .main-container a {
     text-decoration: none;
@@ -158,10 +159,17 @@ img {
     position: absolute;
     bottom: 0px;
     margin-bottom: 0px;
-    
 }
 
+aside {
+    width: 50%;
+}
 
+.side {
+    background-color: red;
+    height: 100%;
+    width: 100%;
+}
 
 
 
