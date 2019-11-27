@@ -172,6 +172,7 @@ img {
 
 aside {
     width: 50%;
+    position: relative;
 }
 
 aside a:hover{
@@ -187,6 +188,19 @@ aside a:hover{
     font-family: sans-serif;
     color: white;
     font-weight: 500;
+    position: relative;
+}
+
+.aside-header ::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 10px 0 10px;
+    border-color: #dc191c transparent transparent transparent;
+    position: absolute;
+    bottom: -12px;
+
 }
 
 .aside-header p {
@@ -205,7 +219,8 @@ aside a:hover{
 
 hr {
     border-top-style: dotted;
-
+    margin-left: 10px;
+    width: 100%;
 }
 
 
@@ -228,4 +243,58 @@ hr {
 
 .news-more a{
     color: black;
+}
+
+.news-more {
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.news-link {
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    top: 764px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    font-size: small;
+}
+
+.news-link a {
+    color: red;
+}
+
+.news-link ::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 4.5px 0 4.5px 8px;
+    border-color: transparent transparent transparent #dc191c;
+    position: absolute;
+    bottom: 14.8px;
+    left: 182px;
+}
+
+.second-container {
+    width: 970px;
+    margin: 0 auto;
+}
+
+.latest {
+    width: 970px;
+    margin: 0 auto;
+}
+
+.second-container p {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.forth-image {
+    height: 545px;
+    position: relative;
+    margin-left: 10px;
 }
