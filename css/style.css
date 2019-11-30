@@ -119,7 +119,7 @@ a {
     position: relative;
 }
 
-.section {
+section {
     margin-left: -10px;
 }
 
@@ -267,7 +267,7 @@ hr {
     background-color: white;
     position: absolute;
     width: 100%;
-    top: 761px;
+    top: 762px;
     padding: 10px 0px 10px 0px;
     text-align: center;
     font-size: small;
@@ -344,7 +344,7 @@ hr {
 
 .third-container {
     width: 975px;
-    margin: 15px auto 91px;
+    margin: 15px auto 166px;
     display: flex;
     flex-direction: row;
     height: 210px;
@@ -352,11 +352,30 @@ hr {
     left: 2px;
 }
 
+.third-container a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+
 .white-text-link {
     background-color: white;
     position: absolute;
-    bottom: -79px;
+    bottom: -149px;
     margin-bottom: 0px;
     width: 100%;
-    height: 130px;
+    height: 200px;
+    font-family: "roboto condensed", sans-serif;
+}
+
+.white-text-link h3 {
+    margin: 6px 44px 0px 29px;
+}
+
+.white-text-link h6 {
+    margin: 6px 44px 0px 29px;
+}
+
+.white-text-link p {
+    margin: 6px 44px 0px 29px;
 }
