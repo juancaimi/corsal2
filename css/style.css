@@ -381,9 +381,11 @@ hr {
 }
 
 @media all and (max-width: 992px) {
-    .popular-topics {
-        display: none;
+
+    .main-img {
+        margin: 5px;
     }
+    
     .alpha-container {
         display: none;
     }
@@ -400,7 +402,7 @@ hr {
         width: 100%;
         flex-direction: row;
         position: absolute;
-        bottom: -550px;        
+        bottom: -390px;        
     }
 
     .aside-header {
