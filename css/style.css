@@ -379,3 +379,49 @@ hr {
 .white-text-link p {
     margin: 6px 44px 0px 29px;
 }
+
+@media all and (max-width: 992px) {
+    .popular-topics {
+        display: none;
+    }
+    .alpha-container {
+        display: none;
+    }
+
+    hr {
+        display: none;
+    }
+
+    section {
+        margin-bottom: 392px;
+    }
+
+    aside {
+        width: 100%;
+        flex-direction: row;
+        position: absolute;
+        bottom: -550px;        
+    }
+
+    .aside-header {
+        text-align: center;
+    }
+
+    .aside-header ::after {
+        left: 468px;
+    }
+
+    .news-box {
+        width: 15%;
+    }
+
+    .news-text {
+        width: 85%;
+    }
+
+    .news-container p {
+        margin-top: 30px;
+        font-size: 17px;
+    }
+
+}
