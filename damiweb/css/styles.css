@@ -278,6 +278,10 @@ ul {
     color:#fff;
     background:#DC191B;
 }
+.nav-toggle {
+    display: none;
+}
+
 
 @media all and (max-width: 768px) {
     .popular-topics {
@@ -300,6 +304,56 @@ ul {
     .secondary-article-title {
         text-align: left;
     }
+    .menu {
+        flex-direction: column;
+    }
+    nav {
+        display: none;
+        width: 19%;
+    
+    }
+    .nav-toggle:checked ~ nav {
+        display: block;
+    }
+
+    .nav-toggle-label {
+        margin-left: 3em;
+        color: black;
+        position: absolute;
+        top: 77px;
+        left: 23px;    
+    }
+    
+    .nav-toggle-label span,
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after {
+        display: block;
+        background: black;
+        height: 2px;
+        width: 2em;
+        border-radius: 2px;
+        position: relative;
+    }
+    
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after {
+        content: '';
+        position: absolute;
+    }
+    
+    .nav-toggle-label span::before {
+        bottom: 7px;
+    }
+    
+    .nav-toggle-label span::after {
+        top: 7px;
+    }
+    .fas {
+        display: none;
+    }
+
+  
+
 }
 @media all and (max-width: 575px) {
     .featured-article.main {
